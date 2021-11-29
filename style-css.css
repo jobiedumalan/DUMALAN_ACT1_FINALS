@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background: BLUE;
+}
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 85px;
+    color: green;
+}
+.cons{
+    font-size: 40px;
+}
+.navname{
+    font-size: 30px;
+    font-style: oblique;
+    cursor: pointer;
+}
+.navigation-left{
+    margin-top: 20%;
+    display: flex;
+    width: 100%;
+    position: relative; 
+}
+.fas{
+    margin-left: 30px;
+    font-size: 30px;
+    padding-bottom: 50px;
+ }
+.nav-left{
+    width: 30%;
+}
+.topics-left{
+    padding-left: 20px;
+}
+.topics-left li{
+    list-style: none;
+    padding-bottom: 30px;
+}
+.main-content{
+    width: 70%;
+}
+p, h2{
+    padding-bottom: 20px;
+}
+.content{
+    padding-right: 70px;
+}
+hr{
+    width: 60%;
+    margin-bottom: 20px;
+}
